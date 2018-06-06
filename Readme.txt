@@ -1,3 +1,8 @@
+Project Introduction: Dataset consists of bike sharing statistics for 3 different cities: Washington DC, Chicago and New York. Ridership details such as Starting point, End point, Age, Sex, Usage day etc. are provided in raw data (csv format).
+
+Analysis Details: I utilized python framework to perform analysis on all this data. The program is made interactive for user inputs and a fail safe is built in case user inputs values that are non-relevant to this data. Functions were created to explore dataset by Day, Month or all for a given city. Upon selecting parameters, program reverts back with Most common starting point, Most common end point, Most common trip, Busiest day of the week, Most active user Age group and Sex (if available in dataset).
+In the end it also offers to display the raw data (10 lines) to users and then present user with option to either restart the analysis or end the program.
+
 Library versions:
 python
 pandas
